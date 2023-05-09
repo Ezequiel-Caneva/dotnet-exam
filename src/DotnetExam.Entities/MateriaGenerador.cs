@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DotnetExam.Entities
 {
-    public static class MateriaGenerador
+    public class MateriaGenerador
     {
         public static List<Materia> Generar(int cantidad, int alumnosPorMateria) {
 
